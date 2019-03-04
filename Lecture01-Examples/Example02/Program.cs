@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using StudentManagementLibrary;
 
 namespace Example02
 {
@@ -10,7 +11,7 @@ namespace Example02
     {
         private static void Main(string[] args)
         {
-            Sutdent aStudent = new Sutdent()
+            Student aStudent = new Student()
             {
                 name = "侯建德",
                 phone = "0958839890",
@@ -21,7 +22,7 @@ namespace Example02
                 , aStudent.name
                 , aStudent.phone
                 , aStudent.address
-                );
+               );
         }
     }
 }
